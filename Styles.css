@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Condensed&display=swap");
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  background-color: aliceblue;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-size: medium;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+.Encabezado {
+  text-align: center;
+}
+footer ul {
+  list-style: none;
+  text-transform: uppercase;
+  font-size:small
+}
