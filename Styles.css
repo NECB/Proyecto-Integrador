@@ -18,11 +18,47 @@ h2,
 h3 {
   font-family: "Playfair Display", serif;
 }
+
+header {
+  margin-top: 0;
+}
+
 .Encabezado {
   text-align: center;
+  text-decoration-line: underline;
+  margin-top: 0;
 }
 footer ul {
   list-style: none;
   text-transform: uppercase;
-  font-size:small
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 250px;
+  text-align: right;
+}
+input {
+  display: inline-block;
+  float: left;
+}
+
+form {
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+article {
+  margin-top: 30px;
+}
+
+footer {
+  margin-top: 25%;
+  margin-left: 0%;
 }
